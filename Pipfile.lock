@@ -1,7 +1,10 @@
 {
     "_meta": {
         "hash": {
+
+            "sha256": "3813208c156e0997000e1bd9bf6d09e7c4f6b6fb301e3a2983a0bf96cfb64e9c"
             "sha256": "73cbaaf7a6506386dfd980d9b154979291f6916fe7143d32979e461a2518aa9e"
+
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +35,52 @@
             "index": "pypi",
             "version": "==3.1"
         },
+        "django-countries": {
+            "hashes": [
+                "sha256:64015977a5989bcb0e645007299b19fe8ac117466af375161b26bcfa32ae2808",
+                "sha256:a0f77154ae08cb38a0d65530a399ead5f5837ebf6c74f7576e71bb7acdacca94"
+            ],
+            "index": "pypi",
+            "version": "==6.1.3"
+        },
+        "django-filter": {
+            "hashes": [
+                "sha256:84e9d5bb93f237e451db814ed422a3a625751cbc9968b484ecc74964a8696b06",
+                "sha256:e00d32cebdb3d54273c48f4f878f898dced8d5dfaad009438fe61ebdf535ace1"
+            ],
+            "index": "pypi",
+            "version": "==2.4.0"
+        },
+        "django-seed": {
+            "hashes": [
+                "sha256:5cdda71dcd51b2e7340e4aec9035d99d7014409a4b11adddbdff17d814968221"
+            ],
+            "index": "pypi",
+            "version": "==0.2.2"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:5c5071fcbad6dce16f566d492015c829ddb0df42965d488b878594aabc3aed21",
+                "sha256:d54452aedebb4b650254ca092f9f4f5df947cb1de6ab245d817b08b4f4156249"
+            ],
+            "index": "pypi",
+            "version": "==3.12.1"
+        },
+        "faker": {
+            "hashes": [
+                "sha256:6d57066eb7a0dd089f85cee99d0e75a7dcd86d74f9d5af7ccc4ace204b994cd6",
+                "sha256:a69c06e1f160e14a6da96ef6bff98e7b931f8e30d4e4e8ba399aff859965bb19"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==4.4.0"
+        },
+        "markdown": {
+            "hashes": [
+                "sha256:1fafe3f1ecabfb514a5285fca634a53c1b32a81cb0feb154264d55bf2ff22c17",
+                "sha256:c467cd6233885534bf0fe96e62e3cf46cfc1605112356c4f9981512b8174de59"
+            ],
+            "index": "pypi",
+            "version": "==3.2.2"
         "mysqlclient": {
             "hashes": [
                 "sha256:3f39855a4ad22805361e782cc4d1010ac74796225fa2d1c03cc16673ccdc983a",
@@ -76,12 +125,28 @@
             "index": "pypi",
             "version": "==7.2.0"
         },
+        "python-dateutil": {
+            "hashes": [
+                "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
+                "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==2.8.1"
+        },
         "pytz": {
             "hashes": [
                 "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
                 "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
             "version": "==2020.1"
+        },
+        "six": {
+            "hashes": [
+                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
+                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.15.0"
         },
         "sqlparse": {
             "hashes": [
@@ -90,6 +155,13 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.3.1"
+        },
+        "text-unidecode": {
+            "hashes": [
+                "sha256:1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8",
+                "sha256:bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93"
+            ],
+            "version": "==1.3"
         }
     },
     "develop": {}

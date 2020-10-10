@@ -1,14 +1,42 @@
 from django.contrib import admin
+from django.utils.html import mark_safe
 from . import models
+
+
+class PhotoInline(admin.TabularInline):
+
+    model = models.Photo
 
 
 @admin.register(models.House)
 class HouseAdmin(admin.ModelAdmin):
-    pass
+
+    inlines = (PhotoInline,)
+
+    fieldsets = (
+        ("Basic Info", {
+            "fields": (
+                "name",
+                "description",
+                "city",
+                "address",
+                "price",
+                "house_type",
+            ),
+        }),
+        ("Space", {"fields": ("bedrooms", "baths")}),
+        ("More About the Spaces",
+            {
+                "classes": ("collapse",),
+                "fields": ("amenities", "facilites"),
+            },
+         ),
+        ("Last Detail", {"fields": ("host",)}),
+    )
 
 
 @admin.register(models.HouseType)
-class ItemAdmin(admin.ModelAdmin):
+class TypeAdmin(admin.ModelAdmin):
     pass
 
 
